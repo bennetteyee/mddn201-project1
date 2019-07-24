@@ -1,7 +1,8 @@
 /****GLOBAL STYLES*****/
-
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque|Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque|Roboto&display=swap');
 body{
- font-family: Abadi MT Condensed Extra Bold;
+ font-family: 'Rubik Mono One', sans-serif;
  font-size: 15px;
  line-height: 1.5;
  padding: 0;
@@ -25,7 +26,7 @@ header a{
   color:black;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: Abadi MT Condensed Light;
+  font-family: 'Darker Grotesque', sans-serif;
   font-size: 15px;
   padding: 200px 120px;
 }
@@ -46,7 +47,7 @@ header li a:hover{
 
 .header{
   width: 100%;
-  height: 680px;
+  height: 700px;
   background: url(img/header-image.jpg);
   background-size: cover;  
 }
@@ -62,7 +63,7 @@ header li a:hover{
 .header-text h1{
   text-align: center;
   position: absolute;
-  top: 45%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgba(217,192,13);
@@ -83,7 +84,7 @@ header li a:hover{
 }
 
 .titleHeader p{
- font-family: Abadi MT Condensed Light;
+ font-family: 'Darker Grotesque', sans-serif;
  font-size: 20px;
     
 }
@@ -101,7 +102,7 @@ header li a:hover{
 }
 
 .three-boxes p{
- font-family: Abadi MT Condensed Light;
+ font-family: 'Darker Grotesque', sans-serif;
  font-size: 20px;
 }
 
